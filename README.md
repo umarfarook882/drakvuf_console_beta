@@ -68,19 +68,14 @@ The following are the currently supported plugin
    `python3 drakvuf_console_client.py --output_dir <drakvuf_automated_analysis_output_dir>`
   	
 2. Run the eleasticsearch service 
-
 3. Setup the required indices for drakuv console toolkt using drakvuf_console_client.py script
 
     `python3 drakvuf_console_client.py --setup auth username:password` (one time setup)
    
 4. Run the drakvuf console toolkit 
-
 5. Create a new analysis for the malware sample in the drakvuf console toolkit 
-
 6. Upload the log and select the suspicious process with "enabled child parent" option
-
 7. Once log is uploaded sucessfully in elasticsearch, click view on the analysis project
-
 8. Now we can visual drakvuf log in following tab
 
     - Overview  - Sample Information
